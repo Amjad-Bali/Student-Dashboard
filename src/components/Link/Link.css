@@ -1,0 +1,49 @@
+ .link{
+  padding: 10px 0px;
+  position: relative;
+  display: flex;
+  cursor:pointer;
+}
+ .link span{
+  font-size: 18px;
+  color: #c0beff;
+  
+}
+.sidebar.close a{
+  opacity: 0;
+}
+ .link a{
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size:18px ;
+  text-transform: capitalize;
+  color: var(--side-color);
+  cursor: pointer;
+  padding-left: 10px;
+  transition: 0.4s;
+  opacity: 1;
+}
+ .link::after{
+  content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 25px;
+    width: 2px;
+    transition: 0.3s;
+}
+ .link:hover::after{
+  background-color: #EE3637;
+}
+ .link:hover a,
+ .link.active,
+ .link.active span,
+ .link.active a,
+ .link:hover span{
+  color: white;
+}
+ .link.active::after{
+  background-color: #EE3637;
+}
+

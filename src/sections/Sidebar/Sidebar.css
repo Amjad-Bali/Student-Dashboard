@@ -1,0 +1,61 @@
+.sidebar{
+  background-color: var(--side-back);
+  min-height: calc(100vh);
+  padding: 20px;
+  position: relative;
+  width: 214px;
+  transition: 0.4s;
+}
+.sidebar.close{
+  width: 62px;
+}
+.sidebar .arrow{
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.sidebar .arrow.rotate{
+  transform: rotate(180deg);
+}
+.sidebar .logo{
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  font-size: 30px;
+  background: -webkit-linear-gradient(0deg,rgba(255, 255, 255, 0.69),rgba(222, 221, 255,0.70));
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color:transparent;
+  
+}
+.sidebar .logo a{
+  padding-left: 10px;
+}
+
+.sidebar.close .sidetail{
+  opacity: 0;
+  display: none;
+  transform: 0.4s;
+}
+.sidebar .sidetail{
+  display: block;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  padding: 45px 12px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #24243A;
+  border-radius: 20px;
+  max-width: 174px;
+  line-height: 2;
+  background-image: url("../../assets/logo2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  transition: 0.4s;
+}
+.sidebar .sidetail span{
+  font-weight: normal;
+}

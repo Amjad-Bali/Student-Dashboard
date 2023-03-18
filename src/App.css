@@ -1,0 +1,7 @@
+.App{
+  display: flex;
+}
+.App .page{
+  flex: 2;
+  background-color: #F0EFF5;
+}

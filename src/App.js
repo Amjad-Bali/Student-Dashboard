@@ -1,13 +1,15 @@
 import "./App.css";
-
 import { Dashborad } from "./Pages";
-import { Header } from "./sections/index";
+import { Header, Sidebar } from "./sections/index";
 function App() {
   return (
-    <>
-      <Header />
-      <Dashborad />
-    </>
+    <div className='App'>
+      <Sidebar />
+      <div className='page'>
+        <Header />
+        <Dashborad />
+      </div>
+    </div>
   );
 }
 
