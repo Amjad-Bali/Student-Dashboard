@@ -1,0 +1,106 @@
+.course {
+  background-color: white;
+  padding: 4px;
+  border-radius: 20px;
+  width: 245px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.course .container {
+  z-index: 5;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.course .container > img{
+  width: 200px;
+}
+.course .container .check {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #5855D6;
+  font-size: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+
+}
+.course .container .check .check-icon{
+  font-size: 24px;
+  color: #4ed964;
+}
+
+.course .info {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 11px;
+  border-radius: 20px;
+}
+
+
+.course .info .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course .info .type h3{
+  margin: 0 ;
+  font-size: 12px;
+  color: #0E1566;
+}
+.course .info .type span{
+  font-size: 10px;
+  color: #9592A6;
+}
+.course .info .date h3{
+  margin: 0 ;
+  font-size: 12px;
+  color: #9592A6;
+  text-align: center;
+}
+.course .info .date span{
+  font-size: 10px;
+  color: #9592A6;
+}
+.course .info .tial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.course .info .tial div{
+  display: flex;
+  align-items: center;
+}
+.course .info .tial .time-icon{
+  padding-right: 3px;
+  font-size: 26px;
+  color: #FF2C55;
+}
+.course .info .tial span{
+color: #FF2C55;
+font-size: 12px;
+}
+.course .info .tial a{
+  color:#5855D6;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
