@@ -1,0 +1,12 @@
+.content .activety{
+  grid-column: 1 / 3;
+  background: white;
+  padding:  5px 20px;
+  border-radius: 20px;
+  max-height: 232px;
+}
+.content .activety h3{
+  margin: 5px 0 5px;
+  color: #4D4C7C;
+  font-size: 16px;
+}

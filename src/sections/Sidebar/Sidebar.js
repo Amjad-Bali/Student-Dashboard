@@ -11,7 +11,7 @@ const Sidebar = () => {
         key={link.id}
         icon={link.icon}
         name={link.name}
-        active={link.id == "Link-01" ? "active" : ""}
+        active={link.id === "Link-01" ? "active" : ""}
       />
     );
   });
@@ -26,7 +26,7 @@ const Sidebar = () => {
     <div className='sidebar'>
       <IoIosArrowBack onClick={show} className='arrow' color='#C0BEFF' size='26px' />
       <div className='logo'>
-        <img src={logo} />
+        <img src={logo} alt='' />
         <a href='#Dashborad'>Unive</a>
       </div>
       {LinkList}

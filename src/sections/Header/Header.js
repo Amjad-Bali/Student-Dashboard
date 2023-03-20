@@ -25,7 +25,7 @@ const Header = () => {
         </span>
         <div className='profile'>
           <span className='photo'>
-            <img src={photo} />
+            <img src={photo} alt='' />
           </span>
           <div className='detailes'>
             <h4>Mary V</h4>
