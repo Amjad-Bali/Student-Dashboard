@@ -1,0 +1,47 @@
+.upcoming{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  border-radius: 12px;
+  position: relative;
+
+}
+.upcoming .title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 15px;
+}
+.upcoming .title h3{
+  font-size: 16px;
+  color: #333269;
+  margin: 0;
+}
+.upcoming .classife{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 5px;
+}
+.upcoming .classife h3{
+  font-size: 14px;
+  color: #65708D;
+  flex-basis: 25%;
+  margin: 0;
+}
+.upcoming .classife h3:nth-child(2){
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 50%;
+}
+.upcoming .more{
+  font-size: 14px;
+  color: #5855D6;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  font-weight: bold;
+  cursor: pointer;
+  
+}

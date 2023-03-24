@@ -1,4 +1,4 @@
-import { Course, Welcome } from "../../sections";
+import { Course, Upcoming, Welcome } from "../../sections";
 import Active from "../../sections/Active/Active";
 import "./Dashborad.css";
 
@@ -9,6 +9,7 @@ const Dashborad = () => {
       <div className='content'>
         <Active />
         <Course />
+        <Upcoming />
       </div>
     </div>
   );

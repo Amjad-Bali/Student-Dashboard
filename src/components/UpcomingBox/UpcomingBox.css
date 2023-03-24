@@ -1,0 +1,83 @@
+.upcoming .box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: relative;
+  
+}
+.upcoming .box:nth-child(5){
+  position: static;
+}
+.upcoming .box::after{
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 98%;
+  height: 1px;
+  background-color: #EEEEEE;
+}
+.upcoming .box .b-date{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+.upcoming .box .b-date h3{
+  margin: 0 ;
+  font-size: 11px;
+  color: #5855D6;
+}
+.upcoming .box .b-date p,
+.upcoming .box .b-date span  {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #9592A6;
+
+}
+.upcoming .box .b-date span {
+  font-size: 11px;
+}
+.upcoming .detailes{
+  display: flex;
+  align-items: center;
+  flex-basis: 78%;
+  padding: 5px 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.upcoming .detailes:hover{
+  box-shadow: 3px 4px 15px 0px #e8e8e8, -3px 4px 15px #e8e8e8;
+}
+.upcoming .detailes .d-box{
+  flex-basis: 66%;
+
+}
+.upcoming .detailes .d-box h3{
+  margin: 0 0 2px;
+  font-size: 13px;
+  color: #021442;
+
+}
+.upcoming .detailes .d-box p{
+  margin: 0;
+  font-size: 13px;
+  color: #9592A6;
+
+}
+.upcoming .detailes .d-date{
+  padding: 5px 10px;
+  border-radius: 12px;
+  background-color: #E7E7FF;
+  text-align: center;
+  flex-basis:37% ;
+}
+.upcoming .detailes .d-date h3{
+  margin: 0;
+  font-size: 9px;
+  color: #333269;
+}
