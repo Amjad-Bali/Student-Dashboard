@@ -1,0 +1,31 @@
+.messages .m-box{
+  padding: 12px;
+  position: relative;
+  transition: 0.5s;
+}
+.messages .m-box::after{
+  content: "";
+  position: absolute;
+  width: calc(100% - 24px);
+  height: 1px;
+  bottom: 0;
+  left: 12px;
+  background-color:#EEEEEE;
+}
+.messages .m-box > div img  {
+  margin-right: 10px;
+}
+.messages .m-box .title h3{
+  margin: 0 0 5px;
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+.messages .m-box .note{
+  flex-basis: 19%;
+
+}
+.messages .m-box .note h3{
+  margin: 0 0 5px;
+  font-size: 10px;
+  color: var(--message-textcolor);
+}

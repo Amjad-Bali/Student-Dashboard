@@ -1,0 +1,51 @@
+.messages .story{
+  padding: 12px;
+  position: relative;
+}
+.messages .story::after{
+  content: "";
+  position: absolute;
+  width: calc(100% - 24px);
+  height: 1px;
+  bottom: 0;
+  left: 12px;
+  background-color:#EEEEEE;
+}
+.messages .story .add{
+  margin-right: 10px;
+
+}
+.messages .story .add:first-child > div,
+.messages .story .add:not(:first-child) > div{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.messages .story .add:first-child > div{
+  background-color: #E3E2E5;
+}
+.messages .story .add:not(:first-child) > div{
+  position: relative;
+  background-image: linear-gradient(0deg ,#FF2C55 ,#5855D6);
+}
+.messages .story .add:not(:first-child) > div:after{
+  content: "";
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+}
+.messages .story .add:not(:first-child) > div img{
+  z-index: 5;
+}
+.messages .story .add h3{
+  margin:5px 0 0;
+  color: var(--message-textcolor);
+  font-size: 12px;
+  text-align: center;
+}
