@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Student-Dashboard/static/css/main.866a1c86.css",
+    "main.js": "/Student-Dashboard/static/js/main.6a5ef240.js",
+    "static/js/787.e7275ad5.chunk.js": "/Student-Dashboard/static/js/787.e7275ad5.chunk.js",
+    "static/media/UX.svg": "/Student-Dashboard/static/media/UX.71965077cd1d1eaa94b5a1c110cb8fe3.svg",
+    "static/media/MBox2.svg": "/Student-Dashboard/static/media/MBox2.26c24e87fd1c0e7b7a286c4a58796c59.svg",
+    "static/media/active-01.svg": "/Student-Dashboard/static/media/active-01.c5ea5dfea4d314f6c021a040757a8e6c.svg",
+    "static/media/photo.svg": "/Student-Dashboard/static/media/photo.c04b80217d5f29e19385f0365f47bafd.svg",
+    "static/media/MBox1.svg": "/Student-Dashboard/static/media/MBox1.584d1e7fdcec847da9f14ce63e42741d.svg",
+    "static/media/active-02.svg": "/Student-Dashboard/static/media/active-02.da0f2ef9640578ea1c05ce363bc5c6b6.svg",
+    "static/media/Image2.svg": "/Student-Dashboard/static/media/Image2.16374355d98b1b9ae6143e6545ff04c8.svg",
+    "static/media/Image.svg": "/Student-Dashboard/static/media/Image.344437dd2fe35341f7a9172da719f48e.svg",
+    "static/media/MBox3.svg": "/Student-Dashboard/static/media/MBox3.e80952c5fa9a678bd2372a96149d1da4.svg",
+    "static/media/Image4.svg": "/Student-Dashboard/static/media/Image4.efe575af5b6881d4bab7edd2e25a3c75.svg",
+    "static/media/MBox4.svg": "/Student-Dashboard/static/media/MBox4.a9143da49e3939dcb79cb5459a5ed9f3.svg",
+    "static/media/Image3.svg": "/Student-Dashboard/static/media/Image3.803c5469fa66153b85f5224b6b2a801c.svg",
+    "static/media/MBox6.svg": "/Student-Dashboard/static/media/MBox6.5e67bcfa0d5d1532cac785373d466494.svg",
+    "static/media/MBox5.svg": "/Student-Dashboard/static/media/MBox5.8938753cd1f537fbf6f7e165c4f68edd.svg",
+    "static/media/logo2.svg": "/Student-Dashboard/static/media/logo2.f04182b1f77dab09229f.svg",
+    "static/media/logo.svg": "/Student-Dashboard/static/media/logo.d8d0405bba35853cc0fb48d68a61a88d.svg",
+    "index.html": "/Student-Dashboard/index.html",
+    "static/media/plus.svg": "/Student-Dashboard/static/media/plus.dd2ffa03cf9658458bd86ee4d0450ead.svg",
+    "main.866a1c86.css.map": "/Student-Dashboard/static/css/main.866a1c86.css.map",
+    "main.6a5ef240.js.map": "/Student-Dashboard/static/js/main.6a5ef240.js.map",
+    "787.e7275ad5.chunk.js.map": "/Student-Dashboard/static/js/787.e7275ad5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.866a1c86.css",
+    "static/js/main.6a5ef240.js"
+  ]
+}
