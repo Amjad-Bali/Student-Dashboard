@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
-import { Dashborad } from "./Pages";
+import { Dashboard } from "./Pages";
 import { Header, Sidebar } from "./sections/index";
 function App() {
   useEffect(() => {
@@ -25,19 +25,10 @@ function App() {
       <Sidebar />
       <div className='page'>
         <Header />
-        <Dashborad />
+        <Dashboard />
       </div>
     </div>
   );
 }
 
 export default App;
-
-/* setTimeout(() => {
-  nodeProgres.forEach((progress) => {
-    console.log(progress.dataset.value);
-    progress.style.background = `conic-gradient(#5855D6 ${
-      progress.dataset.value * 3.6
-    }deg,#EBEBEB 0deg)`;
-  });
-}, 2000); */

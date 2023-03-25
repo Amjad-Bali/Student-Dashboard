@@ -16,7 +16,7 @@ const Sidebar = () => {
     );
   });
   const show = (ele) => {
-    console.log(ele);
+    /* console.log(ele); */
     const sidebar = document.querySelector(".sidebar");
     const arrow = document.querySelector(".sidebar .arrow");
     sidebar.classList.toggle("close");

@@ -1,9 +1,9 @@
-.dashborad{
+.dashboard{
   background-color: var(--dash-back);
   min-height: calc(100vh - 130px);
   margin: 0px 30px 0;
 }
-.App .dashborad .content{
+.App .dashboard .content{
   gap: 15px;
   display: grid;
   grid-template-columns: auto auto 1fr;

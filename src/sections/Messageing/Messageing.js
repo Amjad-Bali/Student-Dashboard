@@ -22,7 +22,7 @@ const Messageing = () => {
   });
 
   const handleChange = (name) => {
-    console.log(name);
+    /* console.log(name); */
     setnameFilter(name);
   };
   return (

@@ -1,10 +1,10 @@
 import { Course, Messageing, Upcoming, Welcome } from "../../sections";
 import Active from "../../sections/Active/Active";
-import "./Dashborad.css";
+import "./Dashboard.css";
 
-const Dashborad = () => {
+const Dashboard = () => {
   return (
-    <div className='dashborad'>
+    <div className='dashboard'>
       <Welcome />
       <div className='content'>
         <Active />
@@ -16,4 +16,4 @@ const Dashborad = () => {
   );
 };
 
-export default Dashborad;
+export default Dashboard;
